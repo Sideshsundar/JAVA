@@ -11,8 +11,7 @@ public class compare{
         if(num1==num2){
             System.out.println("equal");
         }
-        else{
-            if(num1>num2){
+        else if(num1>num2){
             System.out.println("1 Greater than 2");
             }
             else{
@@ -20,4 +19,4 @@ public class compare{
             }
         }
     }
-}
+
